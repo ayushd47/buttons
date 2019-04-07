@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/mystyle"
+            android:text="Hello" />
+        <Button
+            android:id="@+id/btn2"
+            style="@style/mystyle"
+            android:text="How" />
+        <Button
+            android:id="@+id/btn3"
+            style="@style/mystyle"
+            android:text="Are" />
+        <Button
+            android:id="@+id/btn4"
+            style="@style/mystyle"
+            android:text="You" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
